@@ -1,0 +1,4 @@
+APPL 0.95 90 b
+NFLX 0.3 -5450 s
+AMZN 9.5 350 b
+GOOG 0 40 s

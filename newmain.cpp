@@ -12,32 +12,34 @@ int main()
     // sum of all volumes
 
     // ofstream ofs; //cout
+
+    // check Naming
+    //  declare and initialize before using variables
+    // Format code
+
     ifstream ifs("ass1.txt"); // cin
     ofstream ofs("ass.txt");
 
-    
     char char1, char2;
     string str1, str2, str3, str4;
-    string heading = str1 + "," + str2 + "," + str3 + "," + str4;
+
     double price1, price2, price3, price4;
-    double ave_price = (price1+price2+price3+price4)/4;
 
     int volume1, volume2, volume3, volume4 = 40;
-    int sum_vols = (volume1+volume2+volume3+volume4);
-
 
     ifs >> str1 >> price1 >> volume1 >> char1;
     ifs >> str2 >> price2 >> volume2 >> char2;
     ifs >> str3 >> price3 >> volume3 >> char1;
     ifs >> str4 >> price4 >> volume4 >> char2;
-    
 
+    // string heading = str1 + "," + str2 + "," + str3 + "," + str4;
+    // double ave_price = (price1+price2+price3+price4)/4;
+    // int sum_vols = (volume1 + volume2+volume3+volume4);
 
     ofs << str1 << "," << str2 << "," << str3 << "," << str4 << endl;
-    ofs << (price1+price2+price3+price4)/4 << endl;
-    ofs << volume1+volume2+volume3+volume4;
-    
-    
+    ofs << (price1 + price2 + price3 + price4) / 4 << endl;
+    ofs << volume1 + volume2 + volume3 + volume4;
+
     // ofs << str2 << price2 << volume2 << char2 << endl;
     // ofs << str3 << price3 << volume3 << char1 << endl;
     // ofs << heading << endl;

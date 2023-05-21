@@ -1,0 +1,9 @@
+Name maths english programming
+Ethan 82 95 77
+Ava 75 88 92
+Liam 89 79 83
+
+Averages
+Maths Average 82
+English Average 87
+Programming Average 84
